@@ -1,17 +1,17 @@
 class VoipmsMcp < Formula
   desc "Local MCP server for VoIP.ms that keeps your API credentials on this machine"
   homepage "https://voipms-mcp.ecliptical.io"
-  version "0.13.2"
+  version "0.13.3"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/ecliptical/homebrew-voipms-mcp/releases/download/v0.13.2/voipms-mcp-aarch64-apple-darwin.tar.gz"
-      sha256 "239d469562fe5e30f3032b4fc00177a4aa33d5b3680b46e4edb30731537f2604"
+      url "https://github.com/ecliptical/homebrew-voipms-mcp/releases/download/v0.13.3/voipms-mcp-aarch64-apple-darwin.tar.gz"
+      sha256 "a6c77caf19fabdb6fdbec32b2728f177001cc723a749df87d362854e1336038f"
     end
     on_intel do
-      url "https://github.com/ecliptical/homebrew-voipms-mcp/releases/download/v0.13.2/voipms-mcp-x86_64-apple-darwin.tar.gz"
-      sha256 "d37c7dbf45fedadb4c1005dd121aa537db56183f1bf69e4c9dfcfc0835f03c10"
+      url "https://github.com/ecliptical/homebrew-voipms-mcp/releases/download/v0.13.3/voipms-mcp-x86_64-apple-darwin.tar.gz"
+      sha256 "79082a9f4b019a87d939bc2208cea251eab437054b90f1530d2668503eeeda5d"
     end
   end
 
