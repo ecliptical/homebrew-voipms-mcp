@@ -1,28 +1,28 @@
 class VoipmsMcp < Formula
   desc "Local MCP server for VoIP.ms that keeps your API credentials on this machine"
   homepage "https://voipms-mcp.ecliptical.io"
-  version "0.16.2"
+  version "0.17.1"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/ecliptical/homebrew-voipms-mcp/releases/download/v0.16.2/voipms-mcp-aarch64-apple-darwin.tar.gz"
-      sha256 "0a87d059ffd0eb445879e7efa102292a01d21dcfe9d6bc39d3464c0c7f72cba6"
+      url "https://github.com/ecliptical/homebrew-voipms-mcp/releases/download/v0.17.1/voipms-mcp-aarch64-apple-darwin.tar.gz"
+      sha256 "c276dd0fd0b6f368758bbc736d08ae7b3f256c77fcdaf0dc8b145dc0bdea9b96"
     end
     on_intel do
-      url "https://github.com/ecliptical/homebrew-voipms-mcp/releases/download/v0.16.2/voipms-mcp-x86_64-apple-darwin.tar.gz"
-      sha256 "9c1017159970e4f92581e3cb63e7a25aae9e7a7b3c738998a7adaa6bc7b853c0"
+      url "https://github.com/ecliptical/homebrew-voipms-mcp/releases/download/v0.17.1/voipms-mcp-x86_64-apple-darwin.tar.gz"
+      sha256 "11df325135521bccfdf3f57928b62dc84a1afc35bc8021b06c35f786d64a6297"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ecliptical/homebrew-voipms-mcp/releases/download/v0.16.2/voipms-mcp-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "02a4773a77406153f2a4b23305c1a6216599dbdaf87212c2bcc426dca6c3205b"
+      url "https://github.com/ecliptical/homebrew-voipms-mcp/releases/download/v0.17.1/voipms-mcp-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "c952dd2cc970653bf018c2aa2a9a703aaed53847d2f0278651825cbbd43860ac"
     end
     on_arm do
-      url "https://github.com/ecliptical/homebrew-voipms-mcp/releases/download/v0.16.2/voipms-mcp-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "89feccb299453de799037df1667bcc02a1658f02cda05296504f66cccd50d85b"
+      url "https://github.com/ecliptical/homebrew-voipms-mcp/releases/download/v0.17.1/voipms-mcp-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "6116eff7b9bd34e2e7b92e91e46c0eb848bc0fb6c2626a6a80edfc552197e8f4"
     end
   end
 
