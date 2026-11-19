@@ -1,28 +1,28 @@
 class VoipmsMcp < Formula
   desc "Local MCP server for VoIP.ms that keeps your API credentials on this machine"
   homepage "https://voipms-mcp.ecliptical.io"
-  version "0.19.0"
+  version "0.20.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/ecliptical/homebrew-voipms-mcp/releases/download/v0.19.0/voipms-mcp-aarch64-apple-darwin.tar.gz"
-      sha256 "1d0b6fc3c7a8c0311a1f6c474711a395d9f75ad599f085d54ed62bd62c0f8fe6"
+      url "https://github.com/ecliptical/homebrew-voipms-mcp/releases/download/v0.20.0/voipms-mcp-aarch64-apple-darwin.tar.gz"
+      sha256 "fb480c27a2aeed2c4db5c42a9a3e177d6b2ae619c7b925407c513059539dbab6"
     end
     on_intel do
-      url "https://github.com/ecliptical/homebrew-voipms-mcp/releases/download/v0.19.0/voipms-mcp-x86_64-apple-darwin.tar.gz"
-      sha256 "d26dad6884c8304c77417e0cce7f03efc75f3454134dd7a8017cced9e04d454c"
+      url "https://github.com/ecliptical/homebrew-voipms-mcp/releases/download/v0.20.0/voipms-mcp-x86_64-apple-darwin.tar.gz"
+      sha256 "b5d69657ad4254278222c081cb568a8d96c745a40f4e6cabed385a41a6b21871"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ecliptical/homebrew-voipms-mcp/releases/download/v0.19.0/voipms-mcp-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "c615a5d5b414ffe487e28f22267d28549ce805ebe814474693bb0dfc66427750"
+      url "https://github.com/ecliptical/homebrew-voipms-mcp/releases/download/v0.20.0/voipms-mcp-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "002513e39b0a08054a16f34e8b81608407a51c887834e1cb0e78480471da9129"
     end
     on_arm do
-      url "https://github.com/ecliptical/homebrew-voipms-mcp/releases/download/v0.19.0/voipms-mcp-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "11163f38388fbf8986a4a2dd1780654b25197084f9793ca4736559b0dfe731f9"
+      url "https://github.com/ecliptical/homebrew-voipms-mcp/releases/download/v0.20.0/voipms-mcp-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "7d5647e42557828a401107e2dd278a66ef0a5241b6d986c4682db3bdb9f3c002"
     end
   end
 
